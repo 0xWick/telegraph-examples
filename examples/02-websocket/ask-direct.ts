@@ -10,10 +10,15 @@ import { config } from "../../src/lib/config.js";
 import { TelegraphWS } from "../../src/lib/ws.js";
 import { log } from "../../src/lib/log.js";
 
-const minerId = process.argv.slice(2).filter((a) => a !== "--")[0] ?? "102";
+const minerId = process.argv.slice(2).filter((a) => a !== "--")[0] ?? "104";
 
 // `method` is required by the WS handler (GET/POST/PUT/PATCH/DELETE).
 const presets: Record<string, { endpoint: string; method: string; payload: Record<string, unknown> }> = {
+  "104": {
+    endpoint: "/chat",
+    method: "POST",
+    payload: { model: "nova-pro", messages: [{ role: "user", content: "In one sentence: what is the Telegraph Protocol?" }] },
+  },
   "102": {
     endpoint: "/chat",
     method: "POST",

@@ -2,12 +2,12 @@ import { ethers } from "ethers";
 
 /** Live contract addresses on Base Sepolia (chain 84532). */
 export const ADDRESSES = {
-  diamond: "0x45b0A6e07E2e15D203f3B5285945c549221f5b0a",
-  machina: "0xbAd88F9F77AdCF455d8a6aC08B2d1bA2b312f3e7",
+  diamond: "0xac683bFa8F1C892E23e8300d14c20678C6FC0CA3",
+  machina: "0x6fCCb97f9eFCd50C27A74ceBA439E88F11ac973e",
   /** Circle's canonical Base Sepolia USDC — used by the x402 payment gate. */
   usdcX402: "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
   /** Protocol test USDC — used by Diamond escrow, ERC-8183 jobs and settlement. */
-  usdcEscrow: "0xfFC3a7e0F71E9b48D8DBa86dc7d7B44aB24edD18",
+  usdcEscrow: "0xD0662CA1a427Aee7c302CA2265637fEf814528EE",
   treasury: "0xB82E4DE09f1C43BBD9ca4907c01f1EEd65a521B9",
   x402Receiver: "0x43Eb1B49a079a4587E0D7e8dA81035dc791c91F8",
 } as const;
