@@ -115,7 +115,7 @@ testnet node may change as newer node deployments roll out.
 
 | Contract | Address |
 |---|---|
-| Diamond (Port) | `0x45b0A6e07E2e15D203f3B5285945c549221f5b0a` |
+| Diamond (Port) | `0xac683bFa8F1C892E23e8300d14c20678C6FC0CA3` |
 | MACHINA | `0xbAd88F9F77AdCF455d8a6aC08B2d1bA2b312f3e7` |
 | USDC (x402, Circle) | `0x036CbD53842c5426634e7929541eC2318f3dCF7e` |
 | USDC (escrow/jobs, protocol) | `0xfFC3a7e0F71E9b48D8DBa86dc7d7B44aB24edD18` |
